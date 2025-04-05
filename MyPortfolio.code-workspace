@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "job-portal-api",
+			"path": "../../../JOB/job-portal-api"
+		}
+	],
+	"settings": {}
+}
