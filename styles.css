@@ -1,3 +1,4 @@
+
 /* General Styling */
 body {
     font-family: 'Poppins', sans-serif;
@@ -221,4 +222,61 @@ footer ul li a:hover {
 footer ul li a i {
     font-size: 1.5rem;
     color: inherit;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        background: rgba(13, 17, 23, 0.9);
+        position: absolute;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        padding: 10px 0;
+        display: none;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .input-field,
+    .textarea-field {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .project-card {
+        margin: 10px auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    footer ul li {
+        margin: 0 5px;
+    }
 }
